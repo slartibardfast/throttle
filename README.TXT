@@ -4,7 +4,6 @@ jeff@silent.net
 
 released 3-24-04 to the public domain
 
-
 welcome, oh brave soul, to the source code for throttle.
 
 Here's the file breakdown:
@@ -19,6 +18,8 @@ README   TXT         right here baby!
 SBSTRUC  ASM         structures for all the known southbridges
 SOUTHB   ASM         helper routines for manipulating southbridges
 THROTTLE ASM         main executable
+THPIIX4E ASM         main executable modified for PIIX4E
+SBPIIX4E ASM         structures for all the known southbridges modified for PIIX4E
 
 
 The concept behind throttle is quite simple.  Just tweak the ACPI processor
