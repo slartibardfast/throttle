@@ -56,4 +56,4 @@ THROTTLE_75             equ     1100b           ; 75% throttled
 THROTTLE_8125           equ     1101b           ; 81.25%
 THROTTLE_875            equ     1110b           ; 87.5% throttled
 THROTTLE_9375           equ     1111b           ; 93.75%  
-
+THROTTLE_CC             equ     1000010000b     ; clock control enable & throttle throttle enable for PIIX4E

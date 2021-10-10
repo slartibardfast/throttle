@@ -31,9 +31,9 @@ NMAKEBSC2  = nmake
 BROWSE  = 1
 #PACK_SBRS  = 1
 
-FILES  = thpiix4e.asm cmdline.asm pci.asm misc.asm southb.asm piix4e.asm
+FILES  = thpiix4e.asm cmdline.asm pci.asm misc.asm sbpiix4e.asm sbstruc.asm
 
-OBJS  = thpiix4e.obj cmdline.obj pci.obj misc.obj southb.obj piix4e.obj
+OBJS  = thpiix4e.obj cmdline.obj pci.obj misc.obj sbpiix4e.obj sbstruc.obj
                         	  
 all: $(PROJ).exe
 
